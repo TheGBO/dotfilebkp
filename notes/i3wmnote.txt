@@ -1,4 +1,4 @@
-
+# THIS IS BASED ON MY CURRENT DOTFILE.
 ----------------=----------------
 DEFINITIONS
 
@@ -7,8 +7,8 @@ mod   -> the key that sits in between lCTRL and lALT, often carrying the Microso
 <#>   -> a keystroke from the number row
 <ARR> -> directional arrow key
 ----------------=----------------
-
-
+Commands: i3-msg reload -> reload i3wm to apply configurations
+----------------=----------------
 
 
 
@@ -23,11 +23,13 @@ Open the application menu (req. dmenu)    -> mod + d
 Prepare to tile vertically                -> mod + v
 Prepare to tile horizontally              -> mod + h
 Toggle as to prepare to resize            -> mod + r
+Cycle layouts                             -> mod + e
+Toggle full-screen                        -> mod + f
 
 Create a new terminal window              -> mod + enter
-Close a window                            -> mod + shift + Q (alt + f4 depending on the dotfile)
+Close a window                            -> mod + shift + Q
 Free a window from the tiling             -> mod + shift + space
-Toggle full-screen                        -> mod + f
+Exit i3wm and close session               -> mod + shift + e
 
 change the focus to a neighbour window    -> mod + <ARR>
 
