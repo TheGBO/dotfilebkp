@@ -23,7 +23,8 @@ Open the application menu (req. dmenu)    -> mod + d
 Prepare to tile vertically                -> mod + v
 Prepare to tile horizontally              -> mod + h
 Toggle as to prepare to resize            -> mod + r
-Cycle layouts                             -> mod + e
+Cycle tile layouts                        -> mod + e
+Use tabbed layouts                        -> mod + w
 Toggle full-screen                        -> mod + f
 
 Create a new terminal window              -> mod + enter
