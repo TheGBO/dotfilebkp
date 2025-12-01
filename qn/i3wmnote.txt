@@ -1,0 +1,36 @@
+
+----------------=----------------
+DEFINITIONS
+
+mod   -> the key that sits in between lCTRL and lALT, often carrying the Microsoft Windows logo
+	 some fellas also call it "super key" because uhh ?? 
+<#>   -> a keystroke from the number row
+<ARR> -> directional arrow key
+----------------=----------------
+
+
+
+
+
+
+
+
+----------------=----------------
+How do I (...) ?
+
+Open the application menu (req. dmenu)    -> mod + d                        
+
+Prepare to tile vertically                -> mod + v
+Prepare to tile horizontally              -> mod + h
+Toggle as to prepare to resize            -> mod + r
+
+Create a new terminal window              -> mod + enter
+Close a window                            -> mod + shift + Q (alt + f4 depending on the dotfile)
+Free a window from the tiling             -> mod + shift + space
+Toggle full-screen                        -> mod + f
+
+change the focus to a neighbour window    -> mod + <ARR>
+
+switch to a workspace                     -> mod + <#>
+move current window to another workspace  -> mod + shift + <#>
+----------------=---------------- 
