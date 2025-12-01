@@ -1,1 +1,0 @@
-/home/garel/dotfilebkp/.venv/bin/python -m pip install pathlib
