@@ -2,16 +2,21 @@
 
 ## DEFINITIONS
 
-| Symbol | Meaning |
-|--------|---------|
-| mod    | the key that sits in between LCTRL and LALT, often carrying the Microsoft Windows logo<br>some fellas also call it "super key" because uhh ?? |
-| <#>    | a keystroke from the number row |
-| <ARR>  | directional arrow key |
+| Symbol | Meaning                                          |
+|--------|--------------------------------------------------|
+| mod    | key between LCTRL and LALT, usually Windows logo |
+| <#>    | a keystroke from the number row                  |
+| <ARR>  | directional arrow key                            |
 
 **Commands:**  
 `i3-msg reload` -> reload i3wm to apply configurations
 
 ---
+
+<br>
+<br>
+<br>
+<br>
 
 # How do I (...) ?
 
