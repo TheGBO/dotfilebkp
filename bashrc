@@ -1,0 +1,45 @@
+#
+# ~/.bashrc
+#
+
+alias fastasfuck='aria2c -x 16 -s 16'
+alias md='mkdir'
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias refreshsh='source ~/.bashrc'
+alias nanosh='nano ~/.bashrc'
+alias catsh='cat ~/.bashrc'
+alias echoe='echo -e'
+alias fft='fastfetch'
+alias yaync='yay -S --noconfirm'
+alias wpkill='PYTHONPATH=/home/garel/_hub/5_tool/webpkill/src/webpkill/:$PYTHONPATH python3 /home/garel/_hub/5_tool/webpkill/src/main.py'
+alias nanoi3='nano ~/.config/i3/config'
+
+# quick notes
+alias qn='cd ~/0_quicknotes'
+qngrep () {
+	grep -i "$1" ~/0_quicknotes/*.txt
+}
+
+RED='\[\e[91m\]'
+BLUE='\[\e[38;5;39m\]'
+YEL='\[\e[93m\]'
+CYAN='\[\e[96m\]'
+RESET='\[\e[0m\]'
+
+PS1='\[\e[91m\][\[\e[38;5;39m\]\u\[\e[0m\]@\[\e[38;5;39m\]\h\[\e[91m\]]\[\e[96m\][\[\e[93m\]\w\[\e[96m\]]\[\e[0m\]-\[\e[38;5;156m\]\$\[\e[0m\] '
+
+shopt -s histappend
+shopt -s autocd
+shopt -s checkwinsize
+shopt -s cdspell
+shopt -s globstar
+
+
+export HISTCONTROL=ignoredups:erasedups
+export HISTSIZE=50000
+export HISTFILESIZE=50000
+export PROMPT_COMMAND='history -a'
+
+# Created by `pipx` on 2025-11-13 14:53:35
+export PATH="$PATH:/home/garel/.local/bin"
