@@ -1,5 +1,5 @@
 # THIS IS BASED ON MY CURRENT DOTFILE.
-
+##### talvez eu deva manter isso em inglês
 ## DEFINITIONS
 
 | Symbol | Meaning                                          |

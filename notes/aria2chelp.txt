@@ -1,2 +1,0 @@
-# Download stuff really fast with aria2c
-aria2c -x 16 -s 16 "FILE_URL"
