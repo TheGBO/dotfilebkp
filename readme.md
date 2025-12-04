@@ -17,3 +17,7 @@
 
 # Esse é um setup pessoal
 > Não tenho intenção de fazer isso necessáriamente útil para qualquer pessoa além de mim mesmo, a razão pelo qual isso é público é o fato de acessibilidade. **NÃO COLOCAR CREDENCIAIS OU CHAVES DE API NEM NADA DO TIPO AQUI.**
+
+```sh
+python snapshot.py # tirar "print" dos arquivos que programados para fazê-lo no script.
+```
