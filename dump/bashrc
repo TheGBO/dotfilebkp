@@ -1,6 +1,7 @@
 #
 # ~/.bashrc
-#
+# wget --output-document ~/.bashrc https://raw.githubusercontent.com/TheGBO/dotfilebkp/refs/heads/master/dump/bashrc
+
 
 alias fastasfuck='aria2c -x 16 -s 16'
 alias md='mkdir'
