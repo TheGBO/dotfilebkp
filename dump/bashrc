@@ -1,7 +1,6 @@
 #
 # ~/.bashrc
-# wget --output-document ~/.bashrc https://raw.githubusercontent.com/TheGBO/dotfilebkp/refs/heads/master/dump/bashrc
-
+#
 
 alias fastasfuck='aria2c -x 16 -s 16'
 alias md='mkdir'
@@ -15,7 +14,8 @@ alias fft='fastfetch'
 alias yaync='yay -S --noconfirm'
 alias wpkill='PYTHONPATH=/home/garel/_hub/5_tool/webpkill/src/webpkill/:$PYTHONPATH python3 /home/garel/_hub/5_tool/webpkill/src/main.py'
 alias nanoi3='nano ~/.config/i3/config'
-
+alias vish='nvim ~/.bashrc'
+alias cls='clear'
 # quick notes
 alias qn='cd ~/0_quicknotes'
 qngrep () {
