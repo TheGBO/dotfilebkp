@@ -1,7 +1,8 @@
 #
 # ~/.bashrc
 #
-
+alias ytmp4='yt-dlp -f "bv*[ext=mp4][height<=480]+ba[ext=m4a]/b[ext=mp4][height<=480]" --merge-output-format mp4'
+alias nvimlua='nvim ~/.config/nvim/init.lua'
 alias fastasfuck='aria2c -x 16 -s 16'
 alias md='mkdir'
 alias ls='ls --color=auto'
