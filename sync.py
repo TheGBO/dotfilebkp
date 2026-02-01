@@ -23,7 +23,7 @@ def main():
     #dump bashrc
     open_and_dump('~/.bashrc', 'bashrc')
     #dump i3wm
-    open_and_dump('~/.config/i3/config', 'i3wmconfig')
+    #open_and_dump('~/.config/i3/config', 'i3wmconfig')
 
 if __name__ == '__main__':
     main()
